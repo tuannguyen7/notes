@@ -5,7 +5,7 @@ Follow the [REST naming guide](https://restfulapi.net/resource-naming/). Also ta
 - Nested objects or IDs:
     Nested objects are preferable most of the time.
 	```json
-		{
+	{
 		"id": "24a5a823-db2a-4106-b8de-d79c7362f5eb",
 		"name": "Harry Potter and the Sorcerer's Stone",
 		"category": {

@@ -1,8 +1,8 @@
 # Notes
 ## API design
-- URIs naming convention: 
+- URIs naming convention<br>
 Follow the [REST naming guide](https://restfulapi.net/resource-naming/). Also take a look at [Stormpath Beautiful RES + JSON APIs](https://www.slideshare.net/stormpath/rest-jsonapis).
-- Nested objects or IDs:
+- Nested objects or IDs<br>
     Nested objects are preferable most of the time.
 	```json
 	{
@@ -36,5 +36,5 @@ Follow the [REST naming guide](https://restfulapi.net/resource-naming/). Also ta
 		"price": 19
 	}
 	```
-- Auto increment/Sequence IDs or UUIDs
+- Auto increment/Sequence IDs or UUIDs<br>
 Use UUIDs for primary keys but keep auto increment id as a row in DB.

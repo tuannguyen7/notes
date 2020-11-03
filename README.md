@@ -38,3 +38,5 @@ Follow the [REST naming guide](https://restfulapi.net/resource-naming/). Also ta
 	```
 - Auto increment/Sequence IDs or UUIDs
 Use UUIDs for primary keys but keep auto increment id as a row in DB.
+## Connection pooling
+- [How many connections in pool](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing)

@@ -1,11 +1,11 @@
 # Notes
 ## API design
-- URIs naming convention: 
+- URIs naming convention<br>
 Follow the [REST naming guide](https://restfulapi.net/resource-naming/). Also take a look at [Stormpath Beautiful RES + JSON APIs](https://www.slideshare.net/stormpath/rest-jsonapis).
-- Nested objects or IDs:
+- Nested objects or IDs<br>
     Nested objects are preferable most of the time.
 	```json
-		{
+	{
 		"id": "24a5a823-db2a-4106-b8de-d79c7362f5eb",
 		"name": "Harry Potter and the Sorcerer's Stone",
 		"category": {
@@ -36,7 +36,7 @@ Follow the [REST naming guide](https://restfulapi.net/resource-naming/). Also ta
 		"price": 19
 	}
 	```
-- Auto increment/Sequence IDs or UUIDs
+- Auto increment/Sequence IDs or UUIDs<br>
 Use UUIDs for primary keys but keep auto increment id as a row in DB.
 ## Connection pooling
 - [How many connections in pool](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing)
